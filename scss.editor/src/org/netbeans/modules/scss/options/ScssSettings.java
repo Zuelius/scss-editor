@@ -30,7 +30,7 @@ public class ScssSettings {
     private static final String PROP_USE_COMPASS = "useCompass";
     private static final long serialVersionUID = 85176380568174L;
     private static final String PROP_BUNDLE_USED = "bundleUsed";
-    private static final String BUNDLE_VERSION = "sass-3.1.20";
+    private static final String BUNDLE_VERSION = "sass-3.2.2";
     private Preferences prefs = null;
     private static final Logger LOGGER = Logger.getLogger(ScssSettings.class.getName());
 
