@@ -111,7 +111,9 @@ public class ScssSettings {
 
     public void setUseSystemSass(boolean b) {
         prefs.putBoolean(PROP_SYSTEM_SASS, b);
-        prefs.put(PROP_SASS_PATH, getRubyLoadPaths(":"));
+        if(b == true) {
+            prefs.put(PROP_SASS_PATH, getRubyLoadPaths(":"));
+        }
     }
 
     public boolean useCompass() {
