@@ -16,6 +16,15 @@
                     </run-dependency>
                 </dependency>
                 <dependency>
+                    <code-name-base>org.netbeans.core.multiview</code-name-base>
+                    <build-prerequisite/>
+                    <compile-dependency/>
+                    <run-dependency>
+                        <release-version>1</release-version>
+                        <specification-version>1.26.2</specification-version>
+                    </run-dependency>
+                </dependency>
+                <dependency>
                     <code-name-base>org.netbeans.libs.antlr3.runtime</code-name-base>
                     <build-prerequisite/>
                     <compile-dependency/>
@@ -30,15 +39,6 @@
                     <run-dependency>
                         <release-version>2</release-version>
                         <specification-version>2.5.1.2.1.1.4</specification-version>
-                    </run-dependency>
-                </dependency>
-                <dependency>
-                    <code-name-base>org.netbeans.modules.editor</code-name-base>
-                    <build-prerequisite/>
-                    <compile-dependency/>
-                    <run-dependency>
-                        <release-version>3</release-version>
-                        <specification-version>1.55.1.5.11.6</specification-version>
                     </run-dependency>
                 </dependency>
                 <dependency>
@@ -74,25 +74,16 @@
                     <compile-dependency/>
                     <run-dependency>
                         <release-version>1</release-version>
-                        <specification-version>1.35.1.6</specification-version>
+                        <specification-version>1.53.2.25</specification-version>
                     </run-dependency>
                 </dependency>
                 <dependency>
-                    <code-name-base>org.netbeans.modules.editor.settings</code-name-base>
+                    <code-name-base>org.netbeans.modules.editor.util</code-name-base>
                     <build-prerequisite/>
                     <compile-dependency/>
                     <run-dependency>
                         <release-version>1</release-version>
-                        <specification-version>1.31.1</specification-version>
-                    </run-dependency>
-                </dependency>
-                <dependency>
-                    <code-name-base>org.netbeans.modules.extexecution</code-name-base>
-                    <build-prerequisite/>
-                    <compile-dependency/>
-                    <run-dependency>
-                        <release-version>2</release-version>
-                        <specification-version>1.21.1</specification-version>
+                        <specification-version>1.47.1</specification-version>
                     </run-dependency>
                 </dependency>
                 <dependency>
@@ -132,15 +123,6 @@
                     </run-dependency>
                 </dependency>
                 <dependency>
-                    <code-name-base>org.netbeans.modules.projectuiapi</code-name-base>
-                    <build-prerequisite/>
-                    <compile-dependency/>
-                    <run-dependency>
-                        <release-version>1</release-version>
-                        <specification-version>1.47.2.8</specification-version>
-                    </run-dependency>
-                </dependency>
-                <dependency>
                     <code-name-base>org.netbeans.modules.queries</code-name-base>
                     <build-prerequisite/>
                     <compile-dependency/>
@@ -150,20 +132,11 @@
                     </run-dependency>
                 </dependency>
                 <dependency>
-                    <code-name-base>org.netbeans.spi.navigator</code-name-base>
-                    <build-prerequisite/>
-                    <compile-dependency/>
-                    <run-dependency>
-                        <release-version>1</release-version>
-                        <specification-version>1.13.1</specification-version>
-                    </run-dependency>
-                </dependency>
-                <dependency>
                     <code-name-base>org.openide.awt</code-name-base>
                     <build-prerequisite/>
                     <compile-dependency/>
                     <run-dependency>
-                        <specification-version>7.23.1</specification-version>
+                        <specification-version>7.46.1</specification-version>
                     </run-dependency>
                 </dependency>
                 <dependency>
@@ -203,7 +176,7 @@
                     <build-prerequisite/>
                     <compile-dependency/>
                     <run-dependency>
-                        <specification-version>7.17.1</specification-version>
+                        <specification-version>7.27.1</specification-version>
                     </run-dependency>
                 </dependency>
                 <dependency>
@@ -258,8 +231,12 @@
             </test-dependencies>
             <public-packages/>
             <class-path-extension>
-                <runtime-relative-path>ext/jruby-complete-1.5.6.jar</runtime-relative-path>
-                <binary-origin>release/modules/ext/jruby-complete-1.5.6.jar</binary-origin>
+                <runtime-relative-path>ext/org-netbeans-modules-scss.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/org-netbeans-modules-scss.jar</binary-origin>
+            </class-path-extension>
+            <class-path-extension>
+                <runtime-relative-path>ext/jruby-complete-1.7.0.preview2.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/jruby-complete-1.7.0.preview2.jar</binary-origin>
             </class-path-extension>
         </data>
     </configuration>

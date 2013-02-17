@@ -35,7 +35,7 @@ Also, you can specify the output path for the CSS, using the `@outputFile` tag:
  */
 ```
 
-The path can be relative to the SCSS file, or absolute to the project path. For instance, if the project path is */home/user/myproject/* and the `@outputPath` is */stylesheet.css*, the stylesheet will be created at */home/user/myproject/stylesheet.css*.
+The path can be relative to the SCSS file, or absolute to the project path. For instance, if the project path is */home/user/myproject/* and the `@outputFile` is */stylesheet.css*, the stylesheet will be created at */home/user/myproject/stylesheet.css*.
 
 ## License
 
